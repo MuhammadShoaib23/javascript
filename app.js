@@ -1,30 +1,25 @@
-//Task 1: Create a Full Address
-var street = prompt("Enter your street:");
-var city = prompt("Enter your city:");
-var country = prompt("Enter your country:");
-var fullAddress = street + ", " + city + ", " + country;
-alert("Your full address is: " + fullAddress);
+//Assignment 1: Welcome Message
+// var userName = prompt("What is your name?");
+// alert("Welcome, " + userName + "!");
 
-//Task 2: Make a Custom Username
-var firstName = prompt("Enter your first name:");
-var favoriteNumber = prompt("Enter your favorite number:");
-var username = firstName + favoriteNumber;
-alert("Your new username is: " + username);
+//Assignment 2: Age Message
+// var name2 = prompt("Enter your name:");
+// var age = prompt("Enter your age:");
+// console.log(name2 + " is " + age + " years old.");
 
-//Task 3: Email Generator
-var fName = prompt("Enter your first name:");
-var lName = prompt("Enter your last name:");
-var email = fName.toLowerCase() + "." + lName.toLowerCase() + "@gmail.com";
-alert("Your generated email is: " + email);
+//Assignment 3: Favorite Color
+// var color = prompt("What is your favorite color?");
+// alert("Wow! " + color + " is a nice color!");
 
-//Task 4: Combine Favorite Things
-var color = prompt("Enter your favorite color:");
-var animal = prompt("Enter your favorite animal:");
-var food = prompt("Enter your favorite food:");
-var favoritesSentence = "Your favorite things are: " + color + ", " + animal + "s and " + food + "!";
-alert(favoritesSentence);
+//Assignment 4: Simple Math Sentence
+var num1 = prompt("Enter the first number:");
+var num2 = prompt("Enter the second number:");
+var sum = Number(num1) + Number(num2);
+console.log(sum)
+console.log("The result of " + num1 + " + " + num2 + " is " + sum + ".");
 
-//Task 5: Quote with Author
-var quote = prompt("Enter a quote:");
-var author = prompt("Enter the author's name:");
-alert('"' + quote + '" - ' + author);
+//Assignment 5: About Me Summary
+// var yourName = prompt("What's your name?");
+// var hobby = prompt("What's your favorite hobby?");
+// var country = prompt("Which country are you from?");
+// alert("Hi, I'm " + yourName + " from " + country + ", and I love " + hobby + "!");
